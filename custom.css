@@ -1,0 +1,79 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+img {
+    border-color: hsl(216, 50%, 16%);
+    object-fit: cover;
+}
+
+img:hover {
+    background-color: rgb(117, 251, 247);
+    cursor: pointer;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    margin: 5rem auto;
+}
+
+.card-title {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.card-title:hover {
+    color: rgb(117, 251, 247);
+    cursor: pointer;
+}
+
+.card-subtitle {
+   
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.price-time {
+    border-color: hsl(215, 32%, 27%) !important;
+}
+
+.card-text, .days-left, .createdBy {
+    color: hsl(215, 51%, 70%);
+}
+
+.price-eth, .days-left {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.card-text, .createdBy, .createdName {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+.price-eth {
+    color: hsl(178, 100%, 50%);
+}
+
+.createdName {
+    color: hsl(0, 0%, 100%);
+}
+
+.createdName:hover {
+    color: rgb(117, 251, 247);
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(215, 51%, 70%);
+    margin: -4rem auto;
+}
+
+.attribution a {
+    color: hsl(178, 100%, 50%);
+}
