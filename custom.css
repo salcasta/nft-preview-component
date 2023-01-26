@@ -19,7 +19,7 @@ body {
     z-indez: 999 !important;
     opacity: 0 !important;
     transition: opacity 0.3s ease-in-out !important;
-}
+} 
 
 .active-state:hover {
     opacity: 1 !important;
