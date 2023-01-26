@@ -25,6 +25,9 @@
     <div class="row">
       <div class="card py-4 px-4 border border-0 rounded-4" style="width: 20rem; height: 34rem;">
         <img src="images/image-equilibrium.jpg" class="card-img-top img-fluid border border-0 rounded-3 mb-4" alt="nft">
+        <div class="active-state">
+          <img src="images/icon-view.svg" class="view-image" alt="eye icon">
+        </div>
         <div class="h-100">
           <h5 class="card-title">
             Equilibrium #3429
@@ -34,27 +37,42 @@
             Our Equilibrium collection promotes balance and calm.
           </p>
 
-          <div class="price-time mb-3 border-bottom pb-3 d-flex justify-content-between">
-            <span class="card-subtitle price-eth"><svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
+          <!-- <div class="price-time mb-3 border-bottom pb-3 d-inline-block d-flex row">
+
+            <div class="card-subtitle price-eth d-inline align-bottom d-flex justify-content-start align-self-center">
+              <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
                   fill="#00FFF8" />
               </svg>
               0.041 ETH
-            </span>
-            <span class="card-subtitle days-left"><svg width="17" height="17" xmlns="http://www.w3.org/2000/svg">
+
+
+
+              <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"
                   fill="#8BACD9" />
               </svg>
               3 days left
-            </span>
-          </div>
+            </div>
+          </div> -->
+
+          <ul
+            class="list-unstyled price-time border-bottom d-flex align-items-center justify-content-between pt-1 pb-3">
+            <li class="price-eth d-flex align-items-center">
+              <img src="images/icon-ethereum.svg" class="me-2" alt="ethereum icon"> 0.041 ETH
+            </li>
+
+            <li class="days-left d-flex align-items-center">
+              <img src="images/icon-clock.svg" class="me-2" alt="clock icon"> 3 days left
+            </li>
+          </ul>
 
           <div class="d-block">
-            <img src="images/image-avatar.png" class="img-fluid border rounded-5" alt="profile pic"
+            <img src="images/image-avatar.png" class="img-fluid border rounded-5 me-3" alt="profile pic"
               style="width: 2rem; height: 2rem;">
 
-            <span class="card-subtitle d-inline"><span class="createdBy">Creation of</span><span
+            <span class="card-subtitle d-inline"><span class="createdBy">Creation of</span> <span
                 class="createdName">Jules Wyvern</span></span>
           </div>
         </div>

@@ -2,14 +2,35 @@ body {
     background-color: hsl(217, 54%, 11%);
 }
 
-img {
+.card-img-top {
     border-color: hsl(216, 50%, 16%);
     object-fit: cover;
 }
 
-img:hover {
+.card-img-top {
     background-color: rgb(117, 251, 247);
+}
+
+.active-state {
+    position: absolute !important;
+    background-color: hsl(178, 100%, 50%, 60%) !important;
+    width: 85% !important;
+    height: 50% !important;
+    z-indez: 999 !important;
+    opacity: 0 !important;
+    transition: opacity 0.3s ease-in-out !important;
+}
+
+.active-state:hover {
+    opacity: 1 !important;
     cursor: pointer;
+}
+
+.view-image {
+    position: absolute !important; 
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
 }
 
 .card {
